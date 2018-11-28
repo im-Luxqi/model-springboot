@@ -1,0 +1,1 @@
+java -jar ModelSpringbootApplication.jar --server.port=8888
