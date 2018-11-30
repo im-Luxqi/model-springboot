@@ -7,6 +7,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,15 +26,13 @@ public class CityController {
     @Autowired
     private CityService cityService;
 
-    @ApiOperation(value="id查找指定城市")
-    @ApiImplicitParam(name = "id", value = "城市id", required = true, dataType = "Long")
-    @RequestMapping(value = "city/{id}", method = RequestMethod.GET)
+    @GetMapping("city/{id}")
     public String findOneCity(Model model, @PathVariable("id") Long id) {
         model.addAttribute("city", cityService.findCityById(id));
         return "city";
     }
-    @ApiOperation(value = "查找所有城市")
-    @RequestMapping(value = "city", method = RequestMethod.GET)
+
+    @GetMapping("city")
     public String findAllCity(Model model) {
         List<City> cityList = cityService.findAllCity();
         model.addAttribute("cityList", cityList);

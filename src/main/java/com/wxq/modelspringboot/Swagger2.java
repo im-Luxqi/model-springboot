@@ -10,12 +10,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author 程序猿DD
- * @version 1.0.0
- * @date 16/4/18 下午12:02.
- * @blog http://blog.didispace.com
- */
 //http://localhost:8080/swagger-ui.html
 @Configuration
 @EnableSwagger2
@@ -26,7 +20,7 @@ public class Swagger2 {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.wxq.modelspringboot.web"))
+                .apis(RequestHandlerSelectors.basePackage("com.wxq.modelspringboot.web.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
