@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Configurable
-@PropertySource("classpath:extraConfigs/configTest1.properties")
+@PropertySource("classpath:configs/configTest1.properties")
 @ConfigurationProperties(prefix = "com.test1")
 public class ConfigTest1Properties {
 

@@ -19,6 +19,13 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
+
+    @ApiOperation(value="临时", notes="")
+    @RequestMapping(value = "/aaaa", method = RequestMethod.GET)
+    public String hello() {
+        return "sdadsa";
+    }
+
     @ApiOperation(value="获取用户列表", notes="")
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public List<User> getUserList() {
