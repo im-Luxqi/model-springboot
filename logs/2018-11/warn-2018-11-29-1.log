@@ -1,0 +1,14 @@
+[13:58:59:764] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:38) - URL : http://localhost:9999/users/aaaa
+[13:58:59:764] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:39) - HTTP_METHOD : GET
+[13:58:59:764] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:40) - IP : 0:0:0:0:0:0:0:1
+[13:58:59:765] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD : com.wxq.modelspringboot.web.controller.UserController.hello
+[13:58:59:765] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS : []
+[13:58:59:768] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:49) - RESPONSE : sdadsa
+[13:58:59:769] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - SPEND TIME : 6
+[14:00:01:982] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:38) - URL : http://localhost:9999/api/city
+[14:00:01:983] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:39) - HTTP_METHOD : GET
+[14:00:01:984] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:40) - IP : 0:0:0:0:0:0:0:1
+[14:00:01:986] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:41) - CLASS_METHOD : com.wxq.modelspringboot.web.controller.CityController.findAllCity
+[14:00:01:987] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doBefore(WebLogAspect.java:42) - ARGS : [{}]
+[14:00:02:148] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:49) - RESPONSE : cityList
+[14:00:02:149] [ERROR] - com.wxq.modelspringboot.common.aspect.WebLogAspect.doAfterReturning(WebLogAspect.java:50) - SPEND TIME : 167

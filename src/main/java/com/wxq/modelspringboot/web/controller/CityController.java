@@ -1,16 +1,13 @@
 package com.wxq.modelspringboot.web.controller;
 
 import com.wxq.modelspringboot.web.entity.City;
+import com.wxq.modelspringboot.web.entity.City111;
 import com.wxq.modelspringboot.web.service.CityService;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiOperation;
+import com.wxq.modelspringboot.web.service.impl.City111ESServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,6 +22,8 @@ public class CityController {
 
     @Autowired
     private CityService cityService;
+    @Autowired
+    private City111ESServiceImpl city111ESServiceImpl;
 
     @GetMapping("city/{id}")
     public String findOneCity(Model model, @PathVariable("id") Long id) {
@@ -37,5 +36,18 @@ public class CityController {
         List<City> cityList = cityService.findAllCity();
         model.addAttribute("cityList", cityList);
         return "cityList";
+    }
+
+
+    @RequestMapping(value = "/city111", method = RequestMethod.POST)
+    @ResponseBody
+    public Long addCity111(@RequestBody City111 city111) {
+        return city111ESServiceImpl.saveCity(city111);
+    }
+
+    @RequestMapping(value = "/city111", method = RequestMethod.GET)
+    @ResponseBody
+    public List<City111> searchCity(@RequestParam String text) {
+        return city111ESServiceImpl.searchCity(null, null, text);
     }
 }
