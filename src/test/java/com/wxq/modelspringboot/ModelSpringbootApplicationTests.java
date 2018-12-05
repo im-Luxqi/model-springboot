@@ -1,17 +1,15 @@
 package com.wxq.modelspringboot;
 
 import com.wxq.modelspringboot.common.configBean.ConfigTest1Properties;
-import com.wxq.modelspringboot.web.Dao.CityRepository;
 import com.wxq.modelspringboot.web.controller.UserController;
-import com.wxq.modelspringboot.web.entity.City;
-import com.wxq.modelspringboot.web.entity.User;
 import com.wxq.modelspringboot.web.Dao.UserRepository;
-import com.wxq.modelspringboot.web.service.CityService;
+import com.wxq.modelspringboot.web.entity.User;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
@@ -35,27 +33,28 @@ public class ModelSpringbootApplicationTests {
     public void setUp() throws Exception {
         mvc = MockMvcBuilders.standaloneSetup(new UserController()).build();
     }
-
-
-
-
-
     @Autowired
     private UserRepository userRepository;
 
-    @Autowired
-    private CityRepository cityRepository;
-
-    @Autowired
-    private CityService cityService;
 
     @Test
     public void test() throws Exception {
 
+        User user = new User();
+        User user2 = new User();
+        user.setUsername("tom");
+        user.setNickname("tom");
+        user.setPassword("123");
+        user.setRoles("ROLE_USER");
 
-        List<City> l = cityRepository.findByCityName("上海");
+        user2.setUsername("admin");
+        user2.setNickname("admin");
+        user2.setPassword("123");
+        user2.setRoles("ROLE_USER,ROLE_ADMIN");
 
-        System.out.println(l.get(0).getId());
+
+        userRepository.save(user2);
+        userRepository.save(user);
 
 //        City city = new City();
 //        city.setCityName("上海");
@@ -70,5 +69,15 @@ public class ModelSpringbootApplicationTests {
 //        System.out.println(userRepository.findByName("AAA").get(0).getAge());
 //        Assert.assertEquals("10",userRepository.findByName("AAA").get(0).getAge());
 
+    }
+
+
+    @Test
+    public void test2() {
+        String pwd = "123456Aa";
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        // 加密
+        String encodedPassword = passwordEncoder.encode(pwd);
+        System.out.println("【加密后的密码为：】" + encodedPassword);
     }
 }

@@ -6,5 +6,5 @@ import com.wxq.modelspringboot.web.entity.User;
 import java.util.List;
 
 public interface UserRepository extends BaseRepository<User, String> {
-    List<User> findByName(String name);
+    List<User> findByUsername(String username);
 }

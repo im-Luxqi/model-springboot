@@ -1,6 +1,7 @@
 package com.wxq.modelspringboot.web.entity;
 
 import com.wxq.modelspringboot.common.base.BaseEntity;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
@@ -8,34 +9,41 @@ import javax.persistence.ManyToOne;
 @Entity
 public class User extends BaseEntity {
 
-    private String name;
-    private Integer age;
-    private City city;
+    private String username;// 账号
+    private String password;// 密码
+    private String nickname;//昵称
+    private String roles;//权限
 
-    @ManyToOne
-    public City getCity() {
-        return city;
+
+    public String getUsername() {
+        return username;
     }
 
-    public void setCity(City city) {
-        this.city = city;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getName() {
-        return name;
+    public String getPassword() {
+        return password;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    public Integer getAge() {
-        return age;
+    public String getNickname() {
+        return nickname;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setNickname(String nickname) {
+        this.nickname = nickname;
     }
 
+    public String getRoles() {
+        return roles;
+    }
 
+    public void setRoles(String roles) {
+        this.roles = roles;
+    }
 }
