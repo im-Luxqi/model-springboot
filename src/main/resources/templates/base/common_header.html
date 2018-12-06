@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="common_header(title,links)">
+
+    <title th:replace="${title}">The awesome application</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!--base-->
+    <!--<link rel="shortcut icon" th:href="@{/static/assets/demo/default/media/img/logo/favicon.ico}"/>-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/pace/pace-theme-flash.css}" media="screen"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/bootstrapv3/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/bootstrapv3/css/bootstrap-theme.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/animate.min.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/jquery-scrollbar/jquery.scrollbar.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/static/assets/plugins/font-awesome/css/font-awesome.css}"/>
+    <!--base-->
+    <!--/* Per-page placeholder for additional links */-->
+    <th:block th:replace="${links}" />
+</head>
+</html>
