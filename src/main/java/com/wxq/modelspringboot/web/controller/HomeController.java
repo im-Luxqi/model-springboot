@@ -20,20 +20,15 @@ public class HomeController {
 
     @GetMapping("/login")
     public String login(){
-        return "login/login";
+        return "page_login/login";
     }
 
-
-    @GetMapping("/register")
-    public String register(){
-        return "register";
-    }
 
     @PostMapping("/register")
     public String doRegister(User user){
         // 此处省略校验逻辑
         if (userService.insert(user))
-            return "redirect:register?success";
-        return "redirect:register?error";
+            return "redirect:/login?success";
+        return "redirect:/login?error";
     }
 }

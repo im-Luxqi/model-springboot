@@ -12,8 +12,16 @@ public class User extends BaseEntity {
     private String username;// 账号
     private String password;// 密码
     private String nickname;//昵称
+    private String six;//昵称
     private String roles;//权限
 
+    public String getSix() {
+        return six;
+    }
+
+    public void setSix(String six) {
+        this.six = six;
+    }
 
     public String getUsername() {
         return username;

@@ -7,7 +7,7 @@ $(document).ready(function() {
         focusInvalid: false,
         ignore: "",
         rules: {
-            nickName: {
+            nickname: {
                 minlength: 2,
                 required: true
             },
@@ -19,13 +19,31 @@ $(document).ready(function() {
                 minlength: 6,
                 required: true
             },
-            passwordDouble: {
+            confirmPassword: {
                 minlength: 6,
-                required: true
+                required: true,
+                equalTo: "#password"
             },
-            gendericonic:{
+            six:{
                 required: true
             }
+        },
+        messages: {
+            nickname: "请输入您的昵称",
+            username: {
+                required: "请输入用户名",
+                minlength: "用户名必须为邮箱样式"
+            },
+            password: {
+                required: "请输入密码",
+                minlength: "密码长度不能小于 6 个字母"
+            },
+            confirmPassword: {
+                required: "请输入密码",
+                minlength: "密码长度不能小于 6 个字母",
+                equalTo: "两次密码输入不一致"
+            },
+            six: "请选择您的性别",
         },
 
         invalidHandler: function (event, validator) {
@@ -49,14 +67,18 @@ $(document).ready(function() {
         },
 
         success: function (label, element) {
+            var $error = $(element).closest("form").find(".validation_form");
             var icon = $(element).parent('.input-with-icon').children('i');
             var parent = $(element).parent('.input-with-icon');
             icon.removeClass("fa fa-exclamation").addClass('fa fa-check');
             parent.removeClass('error-control').addClass('success-control');
+
+            // error.appendTo($error);
         },
 
         submitHandler: function (form) {
-
+            form.submit();
+            // $(form).ajaxSubmit();
         }
 
     });

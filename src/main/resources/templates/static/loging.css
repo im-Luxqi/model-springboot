@@ -1,0 +1,12 @@
+.touch-cannot{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+
+.text-register-success{
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}

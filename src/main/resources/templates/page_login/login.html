@@ -1,7 +1,8 @@
 <html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="base/common_header :: common_header(~{::title},~{::link})">
+<head th:replace="page_base/common_header :: common_header(~{::title},~{::link})">
     <title>首页</title>
     <link rel="stylesheet" th:href="@{/static/webarch/css/webarch.css}">
+    <link rel="stylesheet" th:href="@{/templates/static/loging.css}">
 
 </head>
 
@@ -15,7 +16,7 @@
                     花花世界
                 </h2>
                 <p>
-                    干净创建一个账号尽情玩耍吧
+                    抓紧创建一个账号尽情玩耍吧
                     <br>
                 </p>
                 <p class="p-b-20">
@@ -25,56 +26,47 @@
                     <a href="#tab_login" class="btn btn-primary btn-cons" role="tab" data-toggle="tab">登陆</a> &nbsp;&nbsp;
                     <a href="#tab_register" class="btn btn-info btn-cons" role="tab" data-toggle="tab">创建账户</a>
                 </div>
+                <div class="text-register-success text-success touch-cannot ">
+                    <div th:if="${param.register_success}">
+                        <p >注册成功，可以登录了！</p>
+                    </div>
+                </div>
             </div>
             <div class="tiles grey p-t-20 p-b-20 no-margin text-black tab-content">
                 <div role="tabpanel" class="tab-pane active" id="tab_login">
-                    <form class="animated fadeIn validate" id="" name="">
+                    <form th:action="@{/login}" method="post" class="animated fadeIn validate">
                         <div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">
                             <div class="col-md-6 col-sm-6">
                                 <input class="form-control" name="username"
-                                       placeholder="用户名" type="text" required>
+                                       placeholder="用户名" type="email" required>
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <input class="form-control" name="password" placeholder="密码"
+                                <input class="form-control" name="password" placeholder="密码" minlength="6"
                                        type="password" required>
                             </div>
                         </div>
                         <div class="row p-t-10 m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">
-                            <div class="control-group col-md-10">
+                            <div class="control-group col-md-6">
                                 <div class="checkbox checkbox check-success">
-                                    <input id="checkbox1" type="checkbox" value="1">
-                                    <label for="checkbox1">记住我</label>
+                                    <input id="remanber" type="checkbox" value="1">
+                                    <label for="remanber">记住我</label>
+                                </div>
+                            </div>
+                            <div class="control-group col-md-6">
+                                <div class="checkbox checkbox check-success pull-right">
+                                    <button type="submit" class="btn btn-info btn-cons" >登陆</button>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div role="tabpanel" class="tab-pane" style="padding: 0rem 3.5rem" id="tab_register">
-                    <!--<form class="animated fadeIn validate">-->
-                        <!--<div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">-->
-                            <!--<div class="col-md-6 col-sm-6">-->
-                                <!--<input class="form-control" name="username" placeholder="用户名"-->
-                                       <!--type="text" required>-->
-                            <!--</div>-->
-                            <!--<div class="col-md-6 col-sm-6">-->
-                                <!--<input class="form-control"  name="password" placeholder="密码"-->
-                                       <!--type="password" required>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">-->
-                            <!--<div class="col-md-12">-->
-                                <!--<input class="form-control" name="email" placeholder="邮箱"-->
-                                       <!--type="email" required>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</form>-->
-
-                    <form id="form_iconic_validation"  action="#">
+                  <form  th:action="@{/register}" method="post" id="form_iconic_validation" ><!--id="form_iconic_validation"-->
                         <div class="row form-group">
                             <div class="col-md-12 col-sm-12">
                                 <div class="input-with-icon  right">
                                     <i class=""></i>
-                                    <input type="text" name="nickName"  class="form-control"
+                                    <input type="text" name="nickname"  class="form-control"
                                            placeholder="昵称：不少于2个字   'xiaom'">
                                 </div>
                             </div>
@@ -92,14 +84,14 @@
                             <div class="col-md-6 col-sm-12 form-group">
                                 <div class="input-with-icon  right">
                                     <i></i>
-                                    <input type="text" name="password" class="form-control"
+                                    <input type="password" id="password" name="password" class="form-control"
                                             placeholder="密码:不少于6个字   '123456'">
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-12 form-group">
                                 <div class="input-with-icon  right">
                                     <i></i>
-                                    <input type="text" name="passwordDouble" class="form-control"
+                                    <input type="password"  name="confirmPassword" class="form-control"
                                             placeholder="再输入一次密码">
                                 </div>
                             </div>
@@ -108,14 +100,14 @@
                             <div class="col-md-12 col-sm-12">
                                 <div class="input-with-icon  right">
                                     <i class=""></i>
-                                    <select name="gendericonic" class="select2 form-control"
+                                    <select name="six" class="select2 form-control"
                                             data-init-plugin="select2" th:placeholder="性别">
                                         <option value="2">女</option>
                                         <option value="1">男</option>
                                     </select>
                                 </div></div>
                         </div>
-                        <button class="btn btn-block btn-success" type="submit">注册</button>
+                        <button type="submit" class="btn btn-block btn-success" >注册</button>
                     </form>
                 </div>
             </div>
@@ -125,11 +117,10 @@
 
 
 <!--使用公有js-->
-<div th:replace="base/common_js::common_js(~{::script})">
+<div th:replace="page_base/common_js::common_js(~{::script})">
     <!--每个页面自己的js-->
-    <!--<script th:src="@{static/webarch/js/webarch.js}"></script>-->
-    <!--<script th:src="@{static/assets/js/chat.js}"></script>-->
-    <script th:src="@{/static/assets/js/loging.js}"></script>
+    <script th:src="@{/templates/static/loging.js}"></script>
+
 </div>
 </body>
 </html>

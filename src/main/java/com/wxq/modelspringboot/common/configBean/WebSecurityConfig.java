@@ -46,14 +46,14 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 
         // 在 UsernamePasswordAuthenticationFilter 前添加 BeforeLoginFilter
-        http.addFilterBefore(new BeforeLoginFilter(), UsernamePasswordAuthenticationFilter.class);
+//        http.addFilterBefore(new BeforeLoginFilter(), UsernamePasswordAuthenticationFilter.class);
 
         // 在 CsrfFilter 后添加 AfterCsrfFilter
-        http.addFilterAfter(new AfterCsrfFilter(), CsrfFilter.class);
+//        http.addFilterAfter(new AfterCsrfFilter(), CsrfFilter.class);
 
 
         // 在 UsernamePasswordAuthenticationFilter 前添加 QQAuthenticationFilter
-        http.addFilterAt(qqAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
+//        http.addFilterAt(qqAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
     }
 
     /**
