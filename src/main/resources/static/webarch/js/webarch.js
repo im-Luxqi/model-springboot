@@ -492,6 +492,7 @@ $(document).ready(function () {
                 //Bug fix - In high resolution screen it leaves a white margin
                 $('.header-seperation').css('height', '61px');
                 $('.footer-widget').show();
+                $("#main-menu").show();
             } else {
                 $('body').addClass('grey');
                 $('#main-menu').addClass('mini');
@@ -500,6 +501,7 @@ $(document).ready(function () {
                 $('.header-seperation').hide();
                 $('.footer-widget').hide();
                 $('.main-menu-wrapper').scrollbar('destroy');
+                $("#main-menu").hide();
             }
         }
     });

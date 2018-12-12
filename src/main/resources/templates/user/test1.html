@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorator="user/user">
+
+<head>
+    <th:block layout:fragment="link_scripts">
+        <link rel="stylesheet" th:href="@{/templates/static/test1.css}"><!--links-->
+        <script th:src="@{/templates/static/test1.js}"></script><!--scripts-->
+    </th:block>
+</head>
+<body>
+<div layout:fragment="content">
+    <button type="button" id="aaabbbccc" class="red-red">正文内容11111111111111111</button>
+</div>
+</body>
+</html>

@@ -30,10 +30,15 @@
                     <div th:if="${param.register_success}">
                         <p >注册成功，可以登录了！</p>
                     </div>
+                    <div class="text-error" th:if="${param.register_error}">
+                        <p >注册失败,账号已被注册！</p>
+                    </div>
                 </div>
             </div>
             <div class="tiles grey p-t-20 p-b-20 no-margin text-black tab-content">
-                <div role="tabpanel" class="tab-pane active" id="tab_login">
+                <div role="tabpanel"
+                     th:class="${param.register_error}? 'tab-pane' : 'tab-pane active'"
+                     id="tab_login">
                     <form th:action="@{/login}" method="post" class="animated fadeIn validate">
                         <div class="row form-row m-l-20 m-r-20 xs-m-l-10 xs-m-r-10">
                             <div class="col-md-6 col-sm-6">
@@ -60,7 +65,9 @@
                         </div>
                     </form>
                 </div>
-                <div role="tabpanel" class="tab-pane" style="padding: 0rem 3.5rem" id="tab_register">
+                <div role="tabpanel" style="padding: 0rem 3.5rem"
+                     th:class="${param.register_error}? 'tab-pane active' : 'tab-pane'"
+                     id="tab_register">
                   <form  th:action="@{/register}" method="post" id="form_iconic_validation" ><!--id="form_iconic_validation"-->
                         <div class="row form-group">
                             <div class="col-md-12 col-sm-12">
