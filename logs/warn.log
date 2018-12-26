@@ -1,146 +1,739 @@
-[09:09:50:728] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:10:34:401] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:10:41:161] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:10:41:257] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:10:41:952] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:10:41:952] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:10:54:302] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /widgets.html
-[09:10:55:759] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:10:55:759] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:25:31:108] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:26:12:977] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:26:19:606] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:26:19:702] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/pub" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:26:19:912] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - You don't need to put the layout:fragment/data-layout-fragment attribute into the <head> section - the decoration process will automatically copy the <head> section of your content templates into your layout page.
-[09:28:51:514] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:29:29:565] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:29:29:655] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:29:30:334] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:29:30:344] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:31:53:190] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:31:53:190] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:32:44:889] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:32:44:894] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:32:59:692] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:33:27:376] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:33:51:267] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:33:51:361] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:33:52:007] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:33:52:007] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:36:09:223] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:36:20:541] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:37:39:384] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:37:39:473] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:37:40:346] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:37:40:352] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:38:04:350] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:38:14:417] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:38:14:418] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:40:37:003] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:40:48:992] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:40:56:097] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:40:56:191] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:40:56:906] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:40:56:908] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:48:25:463] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:48:40:928] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:48:41:018] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:48:41:754] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:48:41:754] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:48:56:204] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:49:11:406] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:49:11:406] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:54:19:627] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:54:34:082] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:54:34:173] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:54:34:914] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:54:34:921] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:57:06:101] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:57:29:629] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[09:57:35:728] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:57:35:820] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:57:36:408] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:57:36:414] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:58:24:201] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[09:58:50:362] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[09:58:50:450] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[09:58:51:209] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:58:51:220] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[09:59:13:179] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[09:59:13:182] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:01:04:090] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:01:04:093] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:03:26:143] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:03:26:143] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:03:39:253] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:03:39:257] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:04:22:912] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[10:04:35:665] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:04:42:037] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[10:04:42:132] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[10:04:42:725] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:04:42:725] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:05:44:868] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:05:51:247] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:05:51:247] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:11:32:227] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:11:32:228] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:11:35:095] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:11:35:096] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:11:35:627] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:11:35:629] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:11:36:113] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:11:36:113] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:11:36:642] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:11:36:643] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:12:17:930] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:12:23:926] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:12:23:926] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:13:08:313] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:13:14:772] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:13:14:772] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:14:15:111] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[10:14:48:443] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:14:54:625] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[10:14:54:727] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[10:14:55:368] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:14:55:368] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:16:09:423] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:16:09:428] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:16:22:374] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:16:22:375] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:17:58:871] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:17:58:871] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:18:13:285] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:18:13:287] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:18:31:563] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:18:38:269] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:18:38:273] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:19:08:897] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:19:10:665] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:19:23:211] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:19:23:215] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:21:19:935] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:21:19:939] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:21:25:131] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:21:25:131] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:22:54:008] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
-[10:23:29:708] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:23:29:708] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:23:31:739] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:23:31:741] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:23:32:299] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:23:32:299] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:05:977] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:25:05:977] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:07:695] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:07:695] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:25:08:114] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:08:114] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:25:14:045] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:14:048] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
-[10:25:35:919] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
-[10:25:51:996] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
-[10:25:52:091] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "user/user" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
-[10:25:52:614] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/h.jpg
-[10:25:52:614] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /assets/img/profiles/avatar_small.jpg
+[15:17:08:209] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[15:17:34:207] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /favicon.ico
+[15:17:44:946] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[15:17:45:057] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[15:17:45:907] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:17:45:910] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:17:54:776] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:17:54:776] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:07:159] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:07:167] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:08:038] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:08:039] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:08:936] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:08:936] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:09:777] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:09:777] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:10:562] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:10:562] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:24:556] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:18:24:556] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:51:331] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/index.html
+[15:18:52:727] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:18:52:727] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:22:13:511] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:22:13:588] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:22:37:208] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:22:40:922] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:22:48:903] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:24:07:619] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:24:07:620] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:24:21:099] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:24:21:099] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:24:25:321] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:24:25:326] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:25:20:506] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/avatar_small.jpg
+[15:25:20:506] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:26:22:321] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:26:27:605] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/email.html
+[15:26:29:609] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:27:07:020] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:27:39:477] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:28:07:027] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:32:38:509] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:32:43:798] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:32:46:070] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:33:49:556] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:34:42:325] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:37:55:282] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:37:58:287] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:04:391] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:06:391] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:07:623] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:08:982] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:27:771] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:30:361] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:31:964] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:34:347] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:36:536] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:38:016] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:39:537] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:40:660] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:38:41:707] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:39:17:707] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:40:30:516] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:40:32:208] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:40:35:393] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:40:36:812] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:40:38:796] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:42:41:073] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:42:50:198] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:43:31:760] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:43:33:083] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:47:24:160] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:48:15:721] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:49:26:593] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:49:31:233] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:50:08:293] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:52:51:439] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:52:53:924] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:52:56:325] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:53:03:475] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[15:53:04:908] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:07:27:094] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:07:55:151] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[16:07:55:243] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[16:07:56:272] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:07:58:418] [ERROR] - org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1136) - [THYMELEAF][http-nio-9999-exec-10] Exception processing template "page_dashboard/canvasText": Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:07:58:466] [ERROR] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:02:360] [ERROR] - org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1136) - [THYMELEAF][http-nio-9999-exec-8] Exception processing template "page_dashboard/canvasText": Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:02:363] [ERROR] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:04:108] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:13:05:611] [ERROR] - org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1136) - [THYMELEAF][http-nio-9999-exec-9] Exception processing template "page_dashboard/canvasText": Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:05:614] [ERROR] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:13:043] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:13:53:506] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[16:13:53:603] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[16:13:54:608] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:13:55:870] [ERROR] - org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1136) - [THYMELEAF][http-nio-9999-exec-2] Exception processing template "page_dashboard/canvasText": Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) [spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) [spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:13:55:893] [ERROR] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [page_dashboard/canvasText], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1370) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1116) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1055) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:998) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:890) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:875) ~[spring-webmvc-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:200) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.csrf.CsrfFilter.doFilterInternal(CsrfFilter.java:100) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.1.RELEASE.jar:5.1.1.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-5.1.2.RELEASE.jar:5.1.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:770) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.12.jar:9.0.12]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[16:15:07:917] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:16:41:627] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:17:56:792] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[16:17:56:884] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[16:17:57:867] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:18:00:278] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:18:27:607] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:18:33:395] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:18:58:693] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:19:36:717] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:19:39:351] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:19:39:860] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:19:41:022] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:19:47:645] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:22:12:558] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:22:28:203] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[16:22:28:298] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[16:22:29:218] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:24:03:128] [WARN] - org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:166) - No MyBatis mapper was found in '[com.wxq.modelspringboot]' package. Please check your configuration.
+[16:24:16:719] [WARN] - org.slf4j.Logger$warn.call(Unknown Source) - The layout:decorator/data-layout-decorator processor has been deprecated and will be removed in the next major version of the layout dialect.  Please use layout:decorate/data-layout-decorate instead to future-proof your code.  See https://github.com/ultraq/thymeleaf-layout-dialect/issues/95 for more information.
+[16:24:16:812] [WARN] - org.slf4j.Logger$warn$0.call(Unknown Source) - Fragment expression "page_base/layout_workspace" is being wrapped as a Thymeleaf 3 fragment expression (~{...}) for backwards compatibility purposes.  This wrapping will be dropped in the next major version of the expression processor, so please rewrite as a Thymeleaf 3 fragment expression to future-proof your code.  See https://github.com/thymeleaf/thymeleaf/issues/451 for more information.
+[16:24:17:711] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:26:22:751] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:27:26:812] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:29:52:838] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:30:26:384] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:34:14:046] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:34:15:116] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:41:30:877] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:41:33:581] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:41:49:378] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg
+[16:41:58:147] [WARN] - org.springframework.web.servlet.DispatcherServlet.noHandlerFound(DispatcherServlet.java:1248) - No mapping for GET /user/assets/img/profiles/h.jpg

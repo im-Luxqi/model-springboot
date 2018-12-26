@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org"
       xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
-      layout:decorator="user/user">
+      layout:decorator="page_base/layout_workspace">
 
 <head>
     <th:block layout:fragment="link_scripts">
-        <link rel="stylesheet" th:href="@{/templates/static/test1.css}"><!--links-->
-        <script th:src="@{/templates/static/test1.js}"></script><!--scripts-->
+        <link rel="stylesheet" th:href="@{/templates/static/dashboard.css}"><!--links-->
+        <script th:src="@{/templates/static/dashboard.js}"></script><!--scripts-->
     </th:block>
 </head>
 <body>

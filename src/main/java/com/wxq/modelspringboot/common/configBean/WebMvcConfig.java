@@ -14,4 +14,6 @@ public class WebMvcConfig extends WebMvcConfigurationSupport {
         //其他静态资源
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
     }
+
+
 }

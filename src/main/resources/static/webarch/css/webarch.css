@@ -563,7 +563,7 @@ body.boxed-layout .footer-widget {
 }
 .page-sidebar .page-sidebar-wrapper {
   position: relative;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .page-sidebar .page-sidebar-wrapper > ul {
   list-style: none;

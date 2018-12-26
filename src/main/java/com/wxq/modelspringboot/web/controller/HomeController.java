@@ -28,7 +28,7 @@ public class HomeController {
     public String doRegister(User user){
         // 此处省略校验逻辑
         if (userService.insert(user))
-            return "redirect:/login?success";
-        return "redirect:/login?error";
+            return "redirect:/login?register_success";
+        return "redirect:/login?register_error";
     }
 }
