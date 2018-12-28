@@ -1,15 +1,27 @@
 package com.wxq.modelspringboot.web.controller;
 
+import com.wxq.modelspringboot.common.utils.JasperUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.security.Principal;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 @Controller
 public class UserController {
-
+    @Autowired
+    private  JasperUtils jasperUtils;
     @GetMapping("/user/dashboard")
     public String user(@AuthenticationPrincipal Principal principal, Model model){
         model.addAttribute("username", principal.getName());
@@ -53,13 +65,10 @@ public class UserController {
         return "page_jasper/jasper";
     }
 
-
-
-
-
-
-    public void print(){
-
+    @GetMapping("/user/print")
+    public void print(String type,String jasperName,String nickName,
+                      HttpServletRequest request, HttpServletResponse response){
+        jasperUtils.printFile(type,jasperName,nickName,null,request,response);
     }
 
 }

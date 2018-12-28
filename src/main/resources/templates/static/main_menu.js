@@ -1,5 +1,6 @@
 $(document).ready(function () {
-
+    var ctx = "[[@{/}]]";
+    console.log(ctx);
     $("#photo").on("click",function () {
         $("#menuForm").attr("action","/user/dashboard")
         $("#menuForm").submit();
