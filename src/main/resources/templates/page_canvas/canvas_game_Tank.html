@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script th:src="@{/static/assets/plugins/jquery/jquery-1.11.3.min.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/Helper.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/keyboard.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/const.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/level.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/crackAnimation.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/prop.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/bullet.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/tank.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/num.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/menu.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/map.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/Collision.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/stage.js}" type="text/javascript"></script>
+    <script th:src="@{/static/tank/js/main.js}" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" th:href="@{/static/tank/css/default.css}" />
+    <style type="text/css">
+        #canvasDiv canvas{
+            position:absolute;
+        }
+    </style>
+</head>
+<body style="height: 700px">
+<div class="container">
+    <head><h3>操作说明：玩家1：wasd上左下右，space射击；玩家2：方向键，enter射击。n下一关，p上一关。</h3></head>
+    <div class="main clearfix">
+        <div id="canvasDiv" >
+            <canvas id="wallCanvas" ></canvas>
+            <canvas id="tankCanvas" ></canvas>
+            <canvas id="grassCanvas" ></canvas>
+            <canvas id="overCanvas" ></canvas>
+            <canvas id="stageCanvas" ></canvas>
+        </div>
+    </div>
+
+</div><!-- /container -->
+<div style="text-align:center;">
+</div>
+
+</body>
+</html>

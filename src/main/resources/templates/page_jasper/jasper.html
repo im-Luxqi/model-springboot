@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorator="page_base/layout_workspace">
+
+<head>
+    <th:block layout:fragment="link_scripts">
+        <link th:href="@{/static/assets/plugins/jquery-superbox/css/style.css}" rel="stylesheet" type="text/css" media="screen" />
+        <script th:src="@{/templates/static/dashboard2.js}"></script><!--scripts-->
+        <script th:src="@{/static/assets/plugins/jquery-superbox/js/superbox.js}" type="text/javascript"></script>
+    </th:block>
+</head>
+<body>
+<div layout:fragment="content">
+    <ul class="breadcrumb">
+        <li>
+            <p>YOU ARE HERE</p>
+        </li>
+        <li><a href="#" class="active">Jasper</a> </li>
+    </ul>
+    <div class="page-title"> <i class="icon-custom-left"></i>
+        <h3>Jasper<span class="semi-bold"></span></h3>
+    </div>
+</div>
+</body>
+</html>
