@@ -40,8 +40,8 @@ $(document).ready(function () {
         $("#menuForm").submit();
     });
 
-    $("#jasper").on("click",function () {
-        $("#menuForm").attr("action","/user/jasper")
+    $("#commonWork").on("click",function () {
+        $("#menuForm").attr("action","/user/commonWork")
         $("#menuForm").submit();
     });
 

@@ -60,9 +60,9 @@ public class UserController {
     public String canvasLoveTime(){
         return "page_canvas/canvas_loveTime";
     }
-    @GetMapping("/user/jasper")
+    @GetMapping("/user/commonWork")
     public String jasper(){
-        return "page_jasper/jasper";
+        return "page_commonWork/commonWork";
     }
 
     @GetMapping("/user/print")

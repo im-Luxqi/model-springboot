@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+      layout:decorator="page_base/layout_workspace">
+
+<head>
+    <th:block layout:fragment="link_scripts">
+
+        <link th:href="@{/templates/static/commonWork.css}" rel="stylesheet" type="text/css" media="screen" />
+
+        <script th:src="@{/templates/static/commonWork.js}"></script><!--scripts-->
+    </th:block>
+</head>
+<body>
+<div layout:fragment="content">
+
+    <div class="content">
+        <ul class="breadcrumb">
+            <li>
+                <p>工作站</p>
+            </li>
+            <li><a href="#" class="active">常用功能</a> </li>
+        </ul>
+        <div class="page-title"> <i class="icon-custom-left"></i>
+            <h3>常用功能<span class="semi-bold"></span></h3>
+        </div>
+        <div class="row">
+            <button id="button1" class="btn btn-danger btn-cons" >提示1</button>
+            <button id="button2" class="btn btn-primary btn-cons" >提示2</button>
+            <button id="button3" class="btn btn-success btn-cons" >提示3</button>
+            <button id="button4" class="btn btn-success btn-cons" >提示4</button>
+            <button id="button5" class="btn btn-success btn-cons" >提示5</button>
+            <button id="print" type="button">用户名单pdf打印</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
