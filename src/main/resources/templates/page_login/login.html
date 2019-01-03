@@ -6,8 +6,8 @@
 
 </head>
 
-<body class="error-body no-top lazy" data-original="/static/assets/img/work.jpg"
-      style="background-image: url('/static/assets/img/work.jpg')">
+<body class="error-body no-top lazy"
+      th:style="'background:url(' + @{/static/assets/img/work.jpg} + ');'">
 <div class="container">
     <div class="row login-container animated fadeInUp">
         <div class="col-md-7 col-md-offset-2 tiles white no-padding">

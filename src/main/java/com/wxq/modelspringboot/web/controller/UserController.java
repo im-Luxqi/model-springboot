@@ -19,56 +19,61 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
+@RequestMapping("/user")
 public class UserController {
     @Autowired
     private  JasperUtils jasperUtils;
-    @GetMapping("/user/dashboard")
+    @GetMapping("dashboard")
     public String user(@AuthenticationPrincipal Principal principal, Model model){
         model.addAttribute("username", principal.getName());
         return "page_dashboard/dashboard";
     }
 
-    @GetMapping("/user/canvasText")
+    @GetMapping("canvasText")
     public String canvasText(){
         return "page_canvas/canvas_text";
     }
 
-    @GetMapping("/user/canvasGameFiveChess")
+    @GetMapping("canvasGameFiveChess")
     public String canvasGameFiveChess(){
         return "page_canvas/canvas_game_fiveChess";
     }
 
-    @GetMapping("/user/canvasGameTank")
+    @GetMapping("canvasGameTank")
     public String canvasGameTank(){
         return "page_canvas/canvas_game_tank";
     }
 
-    @GetMapping("/user/canvasGameSnake")
+    @GetMapping("canvasGameSnake")
     public String canvasGameSnake(){
         return "page_canvas/canvas_game_snake";
     }
 
-    @GetMapping("/user/canvasSmallBall")
+    @GetMapping("canvasSmallBall")
     public String canvasSamllBall(){
         return "page_canvas/canvas_smallBall";
     }
-    @GetMapping("/user/canvasHeart")
+    @GetMapping("canvasHeart")
     public String canvasHeart(){
         return "page_canvas/canvas_heart";
     }
-    @GetMapping("/user/canvasLoveTime")
+    @GetMapping("canvasLoveTime")
     public String canvasLoveTime(){
         return "page_canvas/canvas_loveTime";
     }
-    @GetMapping("/user/commonWork")
+    @GetMapping("commonWork")
     public String jasper(){
         return "page_commonWork/commonWork";
     }
 
-    @GetMapping("/user/print")
+    @GetMapping("print")
     public void print(String type,String jasperName,String nickName,
                       HttpServletRequest request, HttpServletResponse response){
-        jasperUtils.printFile(type,jasperName,nickName,null,request,response);
+
+
+        Map<String,Object> map = new HashMap<String,Object>();
+        map.put("idK","a");
+            jasperUtils.printFile(type,jasperName,nickName,map,request,response);
     }
 
 }

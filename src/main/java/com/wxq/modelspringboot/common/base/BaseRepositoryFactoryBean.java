@@ -11,9 +11,6 @@ import org.springframework.data.repository.core.support.RepositoryFactorySupport
 import javax.persistence.EntityManager;
 import java.io.Serializable;
 
-/**
- * Created by konghao on 2016/12/7.
- */
 public class BaseRepositoryFactoryBean<R extends JpaRepository<T, I>, T,
         I extends Serializable> extends JpaRepositoryFactoryBean<R, T, I> {
     public BaseRepositoryFactoryBean(Class<? extends R> repositoryInterface) {

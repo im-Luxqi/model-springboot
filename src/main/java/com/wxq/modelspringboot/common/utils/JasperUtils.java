@@ -1,7 +1,9 @@
 package com.wxq.modelspringboot.common.utils;
 
 import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.engine.export.ooxml.JRXlsxExporter;
 import net.sf.jasperreports.engine.util.JRLoader;
+import net.sf.jasperreports.export.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -36,20 +38,42 @@ public class JasperUtils {
             jasperReport = (JasperReport) JRLoader.loadObject(jasperFile);
             jasperPrint = JasperFillManager.fillReport(jasperReport, jasperParameters, dataSource.getConnection());
 
-            fileNickName += ".pdf";
-            fileNickName = new String(fileNickName.getBytes("GBK"), "ISO8859-1");
-            response.setContentType("application/pdf");
-            response.setHeader("Content-Disposition", "attachment; filename=\"" + fileNickName + "\"");
+            switch (type){
+                case "pdf":
+                    fileNickName += ".pdf";
+                    fileNickName = new String(fileNickName.getBytes("GBK"), "ISO8859-1");
+                    response.setContentType("application/pdf");
+                    response.setHeader("Content-Disposition", "attachment; filename=\"" + fileNickName + "\"");
+                    outStream = response.getOutputStream();
+                    JasperExportManager.exportReportToPdfStream(jasperPrint, outStream);
+                    break;
+                case "xlsx":
+                    fileNickName += ".xlsx";
+                    fileNickName = new String(fileNickName.getBytes("GBK"), "ISO8859-1");
+                    response.setContentType("application/x-download");
+                    response.setHeader("Content-Disposition", "attachment; filename=\"" + fileNickName + "\"");
+                    outStream = response.getOutputStream();
 
-            outStream = response.getOutputStream();
-            JasperExportManager.exportReportToPdfStream(jasperPrint, outStream);
+                    //设置导出时参数
+                    SimpleXlsxReportConfiguration conf = new SimpleXlsxReportConfiguration();
+                    conf.setWhitePageBackground(false);
+                    conf.setDetectCellType(true);
+                    JRXlsxExporter exporter = new JRXlsxExporter();
+                    exporter.setConfiguration(conf);
+                    //设置输入项
+                    ExporterInput exporterInput = new SimpleExporterInput(jasperPrint);
+                    exporter.setExporterInput(exporterInput);
+                    //设置输出项
+                    OutputStreamExporterOutput exporterOutput = new SimpleOutputStreamExporterOutput(outStream);
+                    exporter.setExporterOutput(exporterOutput);
+                    exporter.exportReport();
+                    break;
+            }
+
+            assert outStream != null;
             outStream.flush();
             outStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (JRException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
+        } catch (IOException | JRException | SQLException e) {
             e.printStackTrace();
         }
     }
